@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            display: flex;
+            list-style-type: none;
+        }
+.top{
+    position: relative;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+  background-color: #f9f9f9;
+  min-width: 360px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+
+}
+.top:hover .dropdown{
+    display: block;
+}
+.paddingc{
+    padding: 4px;
+}
+    </style>
+</head>
+<body>
+    <ul>
+        <div class="top">
+            <li class="paddingc"><a href="">Home</a></li>
+            <div class="dropdown">
+                <li class="paddingc">   <li><a href="">Home</a></li>
+                <li class="paddingc"> <a href="">Home</a></li></li>
+                <li class="paddingc">   <li><a href="">Home</a></li>
+                <li class="paddingc"> <a href="">Home</a></li></li>
+                <li class="paddingc">   <li><a href="">Home</a></li>
+                <li class="paddingc"> <a href="">Home</a></li></li>
+            </div>
+
+        </div>
+        <li class="paddingc"><a href="">about</a></li>
+        <li class="paddingc"><a href="">Home</a></li>
+        <li class="paddingc"><a href="">Home</a></li>
+    </ul>
+    
+</body>
+</html>
